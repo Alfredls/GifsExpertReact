@@ -1,12 +1,6 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { GifExpertAppp } from './GifExpertAppp';
+import React from "react";
+import ReactDOM from "react-dom";
+import { GifExpert } from "./GifExpert";
+import "./index.css";
 
-
-import './index.css';
-
-
-ReactDOM.render(
-  <GifExpertAppp />,
-  document.getElementById('root')
-);
+ReactDOM.render(<GifExpert />, document.getElementById("root"));

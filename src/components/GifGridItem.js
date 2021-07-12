@@ -2,9 +2,9 @@ import React from "react";
 
 export const GifGridItem = ({ title, url }) => {
   return (
-    <div className="card animate__flash ">
-      <img src={url} alt={title} />
-      <p> {title} </p>
+    <div className="card ">
+      <img src={url} alt={title} className="card__img" />
+      <p className="card__title"> {title} </p>
     </div>
   );
 };
